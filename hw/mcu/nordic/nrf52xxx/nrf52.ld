@@ -55,7 +55,7 @@ SECTIONS
 
     __text = .;
 
-    .text :
+    .text . :
     {
         __isr_vector_start = .;
         KEEP(*(.isr_vector))
